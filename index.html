@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=`, initial-scale=1.0" />
+    <title>painting app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="addres"><h2>Waheed Kadry</h2></div>
+
+    <div class="control">
+      <label for="fontSize">Draw Size X</label>
+      <input type="range" id="fontSizeX" min="1" max="10" value="5" step="1" />
+      <label for="fontSize">Draw Size Y</label>
+      <input type="range" id="fontSizeY" min="1" max="10" value="0" step="1" />
+      <label for="format">picture format</label>
+      <select id="format">
+        <option value="png" selected>Png</option>
+        <option value="jpg">Jpg</option>
+        <option value="jpeg">Jpeg</option>
+      </select>
+    </div>
+    <p>
+      Paint by holding down the mouse button and moving it.
+      <a href="" download="my_painting.png">Download my painting</a>
+    </p>
+    <canvas width="300" height="300"></canvas>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+html {
+  font-family: sans-serif;
+}
+canvas {
+  background: #fff;
+  border: 1px dashed;
+}
+a {
+  display: inline-block;
+  background: teal;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: ease all 0.3s;
+  cursor: pointer;
+}
+a:hover {
+  letter-spacing: 1.6px;
+}
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+.control label {
+  color: teal;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+.addres {
+  color: blue;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 6.6px;
+  text-shadow: 6px 6px 9px #000;
+  font-size: 3em;
+}
